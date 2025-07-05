@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "crafter-slot-limiter",
+	"version": "${version}",
+	"name": "Crafter Slot Limiter",
+	"description": "Limits crafter slots to holding a single item.",
+	"authors": [
+		"Zachary Barbanell"
+	],
+	"contact": {
+		
+	},
+	"license": "MIT",
+	"icon": "assets/crafter-slot-limiter/icon.png",
+	"environment": "*",
+	"entrypoints": {
+
+	},
+	"mixins": [
+		"crafter-slot-limiter.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": ">=1.21.3 <=1.21.7",
+		"java": ">=21"
+	}
+}
